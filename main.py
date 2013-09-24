@@ -14,6 +14,7 @@ def getPath():
     dir = os.getcwd()
     return dir
 
+
 #List and return the items/files that are in a directory
 def listDirContent():
     pat = getPath() + "\installers"
@@ -30,7 +31,7 @@ def getSetting(para):
 		for item in soup.find_all("app"):
 			if item.find("exe").contents[0] == parameter:
 				sw = item.find("switch").contents[0]
-				ex =getPath()+ "\installers\\" + parameter +" "+sw
+				ex ="\""+workingDir+ "\installers\\" + parameter +"\" "+sw
                 print ex
                 executeShell(ex)
                 
@@ -56,7 +57,8 @@ soup=BeautifulSoup(iksemel)
 
 #Get the list of all installers in the installer folder
 
-getPath()
+#getPath()
+workingDir = getPath()
 listOfOptions = listDirContent()
 
 
