@@ -18,6 +18,7 @@ def getPath():
 def listDirContent():
     pat = getPath() + "\installers"
     content = listdir(pat)
+    
     return content
 
 
@@ -30,8 +31,10 @@ def getSetting(para):
 			if item.find("exe").contents[0] == parameter:
 				sw = item.find("switch").contents[0]
 				ex =getPath()+ "\installers\\" + parameter +" "+sw
-				executeShell(ex)
-	
+                print ex
+                executeShell(ex)
+                
+				
 
 #Function to execute external commands (for example a Shell script/line)
 #executeShell("dir")
