@@ -5,7 +5,7 @@ You also need to specify every installer that isnt in the install_config.xml.
 I will try my best to add as many configurations in there, but there will always be some, that i didnt think of.
 
 I plan to make a install package in the future, so you dont have to do those things manualy.
-Also, a auto downloader of installers in planned, so you can predownload the stuff (if you find yourself on a offline computer).
+Also, an auto downloader of installers in planned, so you can predownload the stuff (if you find yourself on a offline computer).
 
 FAQ
 Why have octodub installer if you have things like ninte and others? 
