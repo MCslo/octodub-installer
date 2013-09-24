@@ -1,4 +1,4 @@
-To get octodub-installer working as it should, you should have a Portable Python instalation in its folder. 
+To get octodub-installer working as it should, you should have Python installed. 
 Also needed is a folder named "installers", in this folder we put the .exe and .msi installer files of aplications.
 This is the developement version of octodub, so you need to manualy do these things and add the installers in the directory.
 You also need to specify every installer that isnt in the install_config.xml.
