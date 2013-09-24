@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<applications>
+	<app>
+		<name>7-zip</name>
+		<exe>7-zip-x64.msi</exe>
+		<switch>/q INSTALLDIR="C:\Program Files\7-zip"</switch>
+	</app>
+	<app>
+		<name>WinRAR</name>
+		<exe>winrar-x64-500.exe</exe>
+		<switch>/S</switch>
+	</app>
+	<app>
+		<name>VLC</name>
+		<exe>vlc-2.0.2-win32.exe</exe>
+		<switch>/S</switch>
+	</app>
+	<app>
+		<name>DaemonToolsLite(personal use)</name>
+		<exe>DTLite4471-0337.exe</exe>
+		<switch>/S /path="C:\Program Files"</switch>
+	</app>
+	<app>
+		<name>CCleaner</name>
+		<exe>ccleanersetup405.exe</exe>
+		<switch>/S</switch>
+	</app>
+	<app>
+		<name>Defraggler</name>
+		<exe>defragglersetup215.exe</exe>
+		<switch>/S</switch>
+	</app>
+	<app>
+		<name>Recuva</name>
+		<exe>recuvasetup148.exe</exe>
+		<switch>/S</switch>
+	</app>
+	<app>
+		<name>Speccy</name>
+		<exe>speccysetup123.exe</exe>
+		<switch>/S</switch>
+	</app>
+	<app>
+		<name>Teamviewer8</name>
+		<exe>TeamViewer_Setup.exe</exe>
+		<switch>/S</switch>
+	</app>
+	<app>
+		<name>Utorrent</name>
+		<exe>utorrent.exe</exe>
+		<switch>/S</switch>
+	</app>
+</applications>
